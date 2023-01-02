@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * print_diagsums - print the sum of the two
  *                 diagonals of a square matrix
@@ -24,3 +26,4 @@ void print_diagsums(int *a, int size)
 	}
 	printf("%d, %d\n", S1, S2);
 }
+
